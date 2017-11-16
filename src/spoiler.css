@@ -1,0 +1,19 @@
+#con>*{
+  cursor:default;
+  user-select:none;
+}
+#con:active #title{
+  display:none;
+}
+#con:active #spoiler{
+  display:inline;
+}
+#title{
+  color:#fff;
+  background:#000;
+}
+#spoiler{
+  display:none;
+  text-decoration:underline;
+  background:#ffa;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="../src/spoiler.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../src/spoiler.css">
+    <meta charset="utf-8">
+    <title>SpoilerJs Example</title>
+
+    <style media="screen">
+      #myText{
+        width: 500px;
+        height: 400px;
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Spoilered Text</h2>
+    <div id="myText">
+      Lorem ipsum dolor sit amet,[spoiler] consectetur adipiscing elit.[spoiler] Cras pretium interdum efficitur. Fusce mattis rutrum risus eget laoreet. Phasellus ut eros eget ligula aliquam pellentesque. Proin congue elit sit amet ipsum convallis porta. Cras feugiat nisi vitae quam vulputate, id varius nibh ullamcorper. Mauris nulla turpis, faucibus finibus tellus eget, posuere vulputate lacus. Maecenas malesuada, ipsum quis volutpat varius, nulla est ornare augue, at fermentum libero neque sed augue. In imperdiet ornare est, ut placerat libero feugiat at.
+
+      Integer felis justo, [spoiler] dapibus eget elementum eu,[spoiler] blandit at orci. Praesent commodo venenatis enim non dignissim. Duis eu tincidunt ex. Donec et neque efficitur tortor faucibus ornare. Pellentesque vitae ipsum at ex tempus varius. Aenean sodales in nulla vitae pulvinar. Donec id malesuada neque. Suspendisse nisl nisl, feugiat eget erat eu, lobortis porta enim. Integer fringilla nec tellus eget vestibulum. Nunc pretium lacus in eros lobortis, vel venenatis diam sagittis. Duis elementum nibh interdum viverra scelerisque. Curabitur pretium tellus mollis pharetra tempus. In ultrices neque cursus congue volutpat. Integer quis mauris vel lacus feugiat hendrerit eu at turpis. Maecenas et finibus nisl. Nullam non fringilla velit.
+
+
+      [spoiler]Nullam odio sapien, [spoiler] porta sed accumsan vitae, interdum ornare ex. Cras tempus massa eget mollis egestas. Nam nec risus id eros commodo dapibus sit amet aliquet justo. Suspendisse semper arcu ut ex sollicitudin, quis dictum nunc porttitor. Integer efficitur maximus sem, in consectetur ante euismod vel. Fusce sagittis efficitur odio, id venenatis neque gravida vel. In hac habitasse platea dictumst. Donec odio turpis, mollis a nisi sit amet, venenatis tincidunt justo. Cras at vestibulum dui. Suspendisse ullamcorper ipsum vel eros aliquet venenatis. Donec laoreet nisl eget ante laoreet dapibus et id augue. Pellentesque sem dolor, vulputate eu volutpat eget, gravida vel tellus. Aliquam vulputate turpis eu libero fringilla, et condimentum libero ornare. Nam elementum, ipsum ut auctor mollis, lectus ex sagittis magna, in mollis leo velit quis ex. Duis blandit posuere nunc sit amet consequat.
+
+      Praesent fermentum tortor sit amet est semper vulputate. Aenean non velit a massa malesuada tincidunt. Cras lectus urna, volutpat ut cursus a, finibus et massa. Mauris nec imperdiet quam. Donec volutpat posuere tellus, ac dapibus leo laoreet non. Nulla suscipit orci lorem, vitae aliquam nisi lobortis ut. Nam cursus mi a varius congue. Nulla facilisi. Integer porttitor aliquet accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+      Mauris eget dui lobortis, dapibus mi et, euismod enim. Vestibulum id purus quis neque bibendum eleifend sed eu neque. Nunc vulputate diam iaculis, sodales sapien et, varius leo. Maecenas pulvinar pellentesque bibendum. Mauris a lectus ultrices, egestas nulla at, molestie mi. Fusce cursus nisi sapien. In vitae sem ante. Nunc efficitur sem nec nisl convallis, non dapibus ligula euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec laoreet venenatis finibus. In et maximus arcu. Nam neque lectus, ullamcorper eget dui ac, sodales commodo ante. Cras finibus convallis purus, et sollicitudin lacus euismod sit amet.
+    </div>
+    <script type="text/javascript">
+      spoiler($("#myText"),{title:"Spoiler! Don't Click."});
+    </script>
+  </body>
+</html>
