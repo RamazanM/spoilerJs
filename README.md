@@ -14,6 +14,16 @@ First import jQuery, spoiler.js, spoiler.css...
     <script src="../src/spoiler.js"></script>
     <link rel="stylesheet" href="../src/spoiler.css">
 ```
+Get your spoilered word/sentence between ```[spoiler]``` tags.
+```html
+    <div id="myText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus hendrerit leo,
+        eget varius dolor tincidunt ut. Sed id laoreet odio,
+        [spoiler] nec gravida quam [spoiler] Vestibulum ante ipsum primis in faucibus orci luctus
+        et ultrices posuere cubilia Curae; Ut et ultrices risus. 
+        Quisque mollis metus magna, ac porttitor metus imperdiet vitae.
+    </div>
+```
 then, ```spoiler()``` it...
 
 ```javascript
